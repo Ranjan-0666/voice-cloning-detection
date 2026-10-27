@@ -1,0 +1,95 @@
+# ─── Python ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+lib/
+lib64/
+MANIFEST
+
+# ─── Virtual Environments ────────────────────────────
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# ─── Jupyter ─────────────────────────────────────────
+.ipynb_checkpoints
+*.ipynb
+
+# ─── Model artifacts (large binary files) ────────────
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+
+# ─── Dataset audio files (can be very large) ─────────
+data/LJSpeech-1.1/
+data/WaveFake/
+data/small_dataset/
+data/demo_wavefake/
+data/WaveFake-main/
+data/WaveFake-main.zip
+data/*.tar.bz2
+data/*.tar.gz
+data/*.zip
+data/processed/dataset_manifest.csv
+
+# Keep the data folder and READMEs
+!data/
+!data/README.md
+!data/processed/
+!data/processed/.gitkeep
+
+# ─── Plots / evaluation outputs ──────────────────────
+reports/
+reports/*.png
+reports/*.pdf
+
+# ─── Prediction history ───────────────────────────────
+data/processed/prediction_history.jsonl
+
+# ─── ngrok token (private!) ──────────────────────────
+.ngrok_token
+
+# ─── OS / IDE ─────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ─── Testing / Coverage ──────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ─── Logs ─────────────────────────────────────────────
+*.log
+logs/
