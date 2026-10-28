@@ -180,3 +180,4 @@ def load_history() -> Optional[object]:
         return pd.read_csv(HISTORY_PATH)
     except Exception:
         return None
+
