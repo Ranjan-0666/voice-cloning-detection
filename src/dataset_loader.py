@@ -244,3 +244,4 @@ def dataset_summary(df: pd.DataFrame) -> Dict:
         "duration_min_s"  : round(float(valid_df["duration_s"].min()),  3) if "duration_s" in valid_df else None,
         "duration_max_s"  : round(float(valid_df["duration_s"].max()),  3) if "duration_s" in valid_df else None,
     }
+
