@@ -1,3 +1,4 @@
 timestamp,filename,label,spoof_prob,genuine_prob,is_suspicious,threshold
 2026-10-27T19:50:45.464502,tmpjc4gslo5.mp3,Synthetic (Suspected Spoof),0.5758,0.4242,True,0.5
 2026-10-27T19:52:15.147312,tmpdqnnkgqs.mp3,Synthetic (Suspected Spoof),0.5758,0.4242,True,0.5
+2026-10-28T19:58:49.219839,tmpk17m91rv.mp3,Genuine,0.4138,0.5863,False,0.5
