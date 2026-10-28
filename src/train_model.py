@@ -207,3 +207,4 @@ if __name__ == "__main__":
     print(json.dumps({k: v for k, v in result.items() if k != "metrics"}, indent=2))
     if result.get("metrics"):
         print("Metrics:", result["metrics"])
+
